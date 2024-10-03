@@ -13,3 +13,5 @@ let numero1 = 20;
 let numero2 = 7453;
 let resultado = calcularMDC(numero1, numero2);
 console.log(`MDC entre ${numero1} e ${numero2}: ${resultado}`);
+
+module.exports = { calcularMDC }

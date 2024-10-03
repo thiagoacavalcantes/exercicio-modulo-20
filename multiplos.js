@@ -13,3 +13,5 @@ function calcularSomaMultiplos() {
 
 const result = calcularSomaMultiplos();
 console.log("A soma de todos os múltiplos de 5 ou 7 abaixo de 1000 é: " + result);
+
+module.exports = { calcularSomaMultiplos };
